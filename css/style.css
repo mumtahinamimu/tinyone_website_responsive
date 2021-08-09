@@ -1,0 +1,300 @@
+/*======================================
+Font integrated CSS
+========================================*/
+@font-face{
+	font-family: PTSans-Regular;
+	src: url("../fonts/PT_Sans/PTSans-Regular.ttf");
+}
+
+@font-face{
+	font-family: PTSans-Bold;
+	src: url("../fonts/PT_Sans/PTSans-Bold.ttf");
+}
+
+@font-face{
+	font-family: Helvetica-Neue-Bold;
+	src: url("../fonts/Helvetica-Neue-Bold/Helvetica-Neue-Bold.ttf");
+}
+
+/*======================================
+Common CSS
+========================================*/
+/*Common start*/
+body{
+  font-family: 'PTSans-Regular', sans-serif;
+  font-size: 16px;
+  color: #010101;
+}
+/*Common end*/
+/*======================================
+Header CSS
+========================================*/
+/*Header start*/
+header{
+  background-color: #fcdb00;
+  padding: 20px 0;
+}
+
+.custom_nav{
+  
+}
+
+.logo{
+
+}
+
+.menu ul li a{
+	font-family: 'PTSans-Bold', sans-serif;
+  font-size: 22px;
+  color: #010101 !important;
+  padding: 0 37px !important;
+}
+
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+
+.menu ul li a:hover{
+	color: white !important;
+}
+/*Header end*/
+/*slider start*/
+.slider{
+	background-color: #fcdb00;
+	padding-bottom: 107px;
+}
+
+
+/*indicators*/
+.custom_indicators {
+    bottom: -85px;
+}
+
+.custom_indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.5;
+}
+
+.custom_indicators .active {
+    opacity: 1;
+}
+
+/*inner-item*/
+.carousel_custom_text{
+	margin-top: 70px;
+}
+
+.carousel_custom_text h1{
+	margin-bottom: 23px;
+	font-family: 'PTSans-Bold', sans-serif;
+	font-size: 32px;
+}
+
+.carousel_custom_text h2{
+	margin-right: 68px;
+	margin-bottom: 21px;
+	font-size: 20px;
+	color: #313841;
+}
+
+.carousel_custom_text p{
+	margin-bottom: 40px;
+	margin-right: 50px;
+	color: #555555;
+}
+
+.slider_icon{
+}
+
+.slider_icon li{
+margin-right: 40px !important;
+}
+
+.slider_icon li i{
+	font-size: 42px;
+	transition: 0.3s;
+}
+
+.slider_icon li i:hover{
+	transform: scale(.8);
+}
+
+.carousel-img{
+}
+/*slider end*/
+
+/*===========================
+Features start
+=============================*/
+.features{
+	padding-top: 100px;
+	padding-bottom: 120px;
+}
+
+.cm_head_title{
+
+}
+
+.cm_head_h1{
+	margin-bottom: 21px;
+	font-family: 'PTSans-Bold', sans-serif;
+	font-size: 32px;
+}
+
+.cm_head_text{
+	font-size: 20px;
+	color: #313841;
+}
+/*Features single*/
+.feature_single{
+	margin-top: 70px;
+}
+.feature_icon{
+	margin-top: 5px;
+}
+
+.feature_icon i{
+	font-size: 50px;
+	transition: 0.3s;
+}
+
+.feature_icon i:hover{
+	transform: scale(.8);
+}
+
+
+.fc_single_text{
+
+}
+
+.fc_single_text h2{
+	font-family: 'PTSans-Regular', sans-serif;
+	font-size: 22px;
+}
+
+.fc_single_text p{
+	color: #898989;
+}
+/*Features end*/
+/*===========================
+contact start
+=============================*/
+.contact{
+	padding-top: 100px;
+	padding-bottom: 120px;
+	background-color: #010101;
+}
+
+.contact_head{
+	margin-bottom: 40px;
+}
+
+.yellow{
+	color: #fcdb00;
+}
+
+.ash{
+	color: #898989
+}
+
+.contact_form{
+	margin-bottom: 70px;
+}
+
+/*Submit button start*/
+.u_email{
+	width: 100%;
+	height: 50px;
+	padding: 10px 22px;
+	border-radius: 0.25rem;
+	font-family: 'PTSans-Regular', sans-serif;
+    font-size: 16px;
+    color: #898989 !important;
+    border: none;
+}
+
+.u_email:focus {
+    color: #898989 !important;
+    background-color: #fff;
+    border: none;
+    box-shadow: none;
+}
+
+.u_submit{
+	width: 100%;
+	height: 50px;
+	font-family: 'PTSans-Bold', sans-serif;
+	font-size: 16px;
+	color: #010101;
+	border-radius: 0.25rem;
+	background-color: #fcdb00;
+	text-transform: uppercase;
+	transition: 0.3s;
+}
+
+.u_submit:focus {
+    box-shadow: none;
+}
+
+.u_submit:hover {
+    background-color: #ffffff;
+}
+/*Submit button end*/
+/*contact icon start*/
+.contact_icon{
+
+}
+
+.contact_icon ul li{
+	margin-right: 30px !important;
+}
+
+.contact_icon ul li:last-child{
+	margin-right: 0 !important;
+}
+
+.contact_icon ul li a{
+	width: 42px;
+	height: 42px;
+	border-radius: 5px;
+	background-color: #fcdb00;
+	display: inline-block;
+	transition: 0.3s;
+}
+
+.contact_icon ul li a:hover{
+	background-color: #ffffff;
+}
+
+.contact_icon ul li a i{
+	margin-top: 6px;
+	font-size: 30px;
+	color: #010101 !important;
+}
+/*contact end*/
+/*==================================
+footer start
+====================================*/
+.footer{
+	background-color: #010101;
+	padding-bottom: 120px;
+}
+
+.footer_c1_contact{
+	color: #ffffff;
+}
+
+.footer_c2{
+
+}
+
+.footer_c2 ul li a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+/*footer end*/
